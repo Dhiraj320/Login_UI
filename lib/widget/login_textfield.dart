@@ -15,10 +15,10 @@ class LoginTextField extends StatelessWidget {
         decoration: InputDecoration(
             contentPadding: const EdgeInsets.all(27),
             enabledBorder: OutlineInputBorder(
-                borderSide: BorderSide(color: Pallete.borderColor, width: 3),
+                borderSide: const BorderSide(color: Pallete.borderColor, width: 3),
                 borderRadius: BorderRadius.circular(10)),
             focusedBorder: OutlineInputBorder(
-                borderSide: BorderSide(color: Pallete.gradient2, width: 3),
+                borderSide: const BorderSide(color: Pallete.gradient2, width: 3),
                 borderRadius: BorderRadius.circular(10)),
             hintText: hintText),
       ),

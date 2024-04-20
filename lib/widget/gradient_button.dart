@@ -8,7 +8,7 @@ class GradientButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-          gradient: LinearGradient(colors: [
+          gradient: const LinearGradient(colors: [
             Pallete.gradient1,
             Pallete.gradient2,
             Pallete.gradient3,
@@ -16,14 +16,14 @@ class GradientButton extends StatelessWidget {
           borderRadius: BorderRadius.circular(7)),
       child: ElevatedButton(
         onPressed: () {},
-        child: Text(
-          "Sign in",
-          style: TextStyle(fontWeight: FontWeight.w600, fontSize: 17),
-        ),
         style: ElevatedButton.styleFrom(
             fixedSize: const Size(395, 55),
             backgroundColor: Colors.transparent,
             shadowColor: Colors.transparent),
+        child: const Text(
+          "Sign in",
+          style: TextStyle(fontWeight: FontWeight.w600, fontSize: 17),
+        ),
       ),
     );
   }

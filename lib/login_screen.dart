@@ -49,7 +49,7 @@ class LoginScreen extends StatelessWidget {
             const SizedBox(height: 15),
             const LoginTextField(hintText: 'Password'),
             const SizedBox(height: 20),
-            GradientButton()
+            const GradientButton()
           ],
         ),
       )),

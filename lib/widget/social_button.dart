@@ -22,6 +22,7 @@ class SocialButton extends StatelessWidget {
           colorFilter:
               const ColorFilter.mode(Pallete.whiteColor, BlendMode.srcIn)),
       label: Text(
+      
         label,
         style: const TextStyle(fontSize: 17, color: Pallete.whiteColor),
       ),
